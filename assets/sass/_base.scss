@@ -82,6 +82,8 @@ a:hover {
     text-align: center;
     border-radius: 0;
     background: none;
+    max-width: 100%;
+    padding: none;
     .container {
         padding: 1rem;
     }
@@ -123,6 +125,7 @@ a:hover {
     h1 {
         padding-bottom: 2rem;
         padding-top: 1rem;
+        font-size: -webkit-xxx-large;
     }
 }
 
@@ -155,6 +158,9 @@ a:hover {
 footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
+    .col-md-3 {
+        padding-top: 2rem;
+    }
     h4 {
         color: #333;
         font-family: 'Dinot', Arial, sans-serif;

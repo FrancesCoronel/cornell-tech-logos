@@ -1,21 +1,25 @@
 .btn-primary {
     background-color: $ct-blue;
-    border: .25rem solid $ct-blue;
+    border: .15rem solid $ct-blue;
     color: white;
-    &:hover {
+    &:hover,
+    &:active,
+    &:focus {
         background-color: white;
-        border: .25rem solid $ct-blue;
+        border: .15rem solid $ct-blue;
         color: $ct-blue;
     }
 }
 
 .btn-secondary {
     background-color: $ct-yellow;
-    border: .25rem solid $ct-yellow;
+    border: .15rem solid $ct-yellow;
     color: black;
-    &:hover {
+    &:hover,
+    &:active,
+    &:focus {
         background-color: white;
-        border: .25rem solid $ct-yellow;
+        border: .15rem solid $ct-yellow;
         color: $ct-yellow;
     }
 }
