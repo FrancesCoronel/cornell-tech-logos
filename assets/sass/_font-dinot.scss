@@ -1,0 +1,38 @@
+/** bold */
+
+@font-face {
+    font-family: 'Dinot';
+    src: url("../fonts/dinot/din-bold.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal
+}
+
+
+/** normal */
+
+@font-face {
+    font-family: 'Dinot';
+    src: url("../fonts/dinot/din.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+/** medium */
+
+@font-face {
+    font-family: 'Dinot';
+    src: url("../fonts/dinot/din-medium.ttf") format('truetype');
+    font-weight: 500;
+    font-style: normal
+}
+
+
+/** light */
+
+@font-face {
+    font-family: 'Dinot';
+    src: url("../fonts/dinot/din-light.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
