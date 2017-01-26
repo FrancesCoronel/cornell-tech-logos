@@ -8,9 +8,21 @@
 
 All the Cornell Tech logos in one place.
 
-## Downloading
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Credits](#credits)
+- [Donations](#donations)
+
+## Installation
 
 All logos are available in PNG and SVG and have transparent backgrounds.
+
+## Usage
+
+Use these for whatever! Just make sure to give me some credit. 😉
 
 ## Contributing
 
@@ -26,14 +38,6 @@ All logos are available in PNG and SVG and have transparent backgrounds.
 - 😯 Create an issue [here](https://github.com/fvcproductions/cornell-tech-logos/issues)!
 
 ## Credits
-
-[![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) |
-:---:|
-[`fvcproductions`](http://fvcproductions.com) |
-
-## License
-
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 2016 © [FVCproductions](http://fvcproductions.com) & [Cornell Tech](http://tech.cornell.edu)
 
