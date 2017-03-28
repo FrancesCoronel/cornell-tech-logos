@@ -1,4 +1,4 @@
-[![showcase](assets/img/showcase.png)](http://fvcproductions.github.io/cornell-tech-logos)
+[![showcase](assets/img/iteration-2.png)](http://fvcproductions.github.io/cornell-tech-logos)
 
 # Cornell Tech Logos
 
@@ -8,21 +8,13 @@
 
 All the Cornell Tech logos in one place.
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [Donations](#donations)
-
 ## Installation
 
-All logos are available in PNG and SVG and have transparent backgrounds.
+CodeKit 3 was used to compile SASS.
 
 ## Usage
 
-Use these for whatever! Just make sure to give me some credit. 😉
+Download the logos and fonts used for Cornell Tech branding.
 
 ## Contributing
 
@@ -33,9 +25,7 @@ Use these for whatever! Just make sure to give me some credit. 😉
 - 😊 Add yourself as a contributor
 - 🔧 Make a pull request [here](https://github.com/fvcproductions/cornell-tech-logos/compare)
 
-> Or just create an issue - any little bit of help counts! 😊
-
-- 😯 Create an issue [here](https://github.com/fvcproductions/cornell-tech-logos/issues)!
+> Or just [create an issue](https://github.com/fvcproductions/cornell-tech-logos/issues) - any little bit of help counts! 😊
 
 ## Credits
 
