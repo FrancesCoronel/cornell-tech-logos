@@ -27,9 +27,15 @@ h4,
 
 h1 {
     font-weight: bold;
+    font-size: 5em;
 }
 
 h2 {
+    font-weight: normal;
+    font-size: 4em;
+}
+
+p {
     font-weight: normal;
 }
 
@@ -52,7 +58,7 @@ a:hover {
     /* For at least Firefox */
     min-height: 100%;
     -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 10rem rgba(0, 0, 0, .5);
     background-color: #fff;
     background: url("../img/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -63,7 +69,7 @@ a:hover {
 
 .site-wrapper-inner {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .cover-container {
@@ -95,23 +101,16 @@ a:hover {
             margin-bottom: 0;
         }
     }
-    h2,
-    p {
-        font-family: 'Dinot', Arial, sans-serif;
-    }
     h1 {
         font-weight: bold;
-        font-size: 5rem;
-        color: black;
+        color: white;
     }
     p {
-        font-weight: 300;
-        font-size: 2.5rem;
-        color: white;
+        color: black;
     }
 }
 
-.ct-logos {
+.main {
     padding-top: 3rem;
     padding-bottom: 3rem;
     background-color: #f7f7f7;
@@ -123,15 +122,18 @@ a:hover {
         padding-bottom: 15px;
     }
     h1 {
-        padding-bottom: 2rem;
-        padding-top: 1rem;
-        font-size: -webkit-xxx-large;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        font-size: 5em;
     }
-}
-
-.contact {
-    a {
-        margin-left: .25rem;
+    h2 {
+        font-size: 4em;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
+    a.btn.btn-secondary {
+        margin-right: .25em;
+        width: 25%;
     }
 }
 
@@ -139,25 +141,90 @@ a:hover {
     padding: 1.5rem;
     border: 0;
     text-align: center;
+    margin-bottom: 1.5em;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    &.black-background {
+        background-color: black;
+        color: white;
+    }
+    .card>img {
+        margin-bottom: .75rem
+    }
+    p.card-text {
+        font-size: 1.5em;
+        padding: 1em;
+    }
 }
 
-.black-background {
-    background-color: black;
-    color: white;
+.dinot,
+.adelle {
+    a.btn.btn-secondary {
+        margin: 1em 0 1em 0;
+        width: 75%;
+    }
 }
 
-.card>img {
-    margin-bottom: .75rem
+.dinot {
+    .din-light {
+        font-weight: 300;
+    }
+    .din-medium {
+        font-weight: 500;
+    }
+    .din-bold {
+        font-weight: bold;
+    }
 }
 
-.card-text {
-    font-size: 85%
+.adelle {
+    h2.card-text,
+    a.btn.btn-secondary {
+        font-family: 'Adelle', Arial, sans-serif !important;
+    }
+    .adelle-thin {
+        font-weight: 100;
+        font-style: normal;
+    }
+    .adelle-thin-italic {
+        font-weight: 100;
+        font-style: italic;
+    }
+    .adelle-light {
+        font-weight: 300;
+        font-style: normal;
+    }
+    .adelle-light-italic {
+        font-weight: 300;
+        font-style: italic;
+    }
+    .adelle-normal-italic {
+        font-weight: normal;
+        font-style: italic;
+    }
+    .adelle-semibold {
+        font-weight: 600;
+        font-style: normal;
+    }
+    .adelle-bold {
+        font-weight: bold;
+        font-style: normal;
+    }
+    .adelle-heavy {
+        font-weight: 900;
+        font-style: normal;
+    }
 }
+
+
+/** FOOTER */
 
 footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding: 3rem 0 3rem 0;
+    .contact {
+        a {
+            margin-left: .25rem;
+        }
+    }
     .col-md-3 {
         padding-top: 2rem;
     }
