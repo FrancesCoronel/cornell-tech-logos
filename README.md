@@ -1,4 +1,4 @@
-[![showcase](assets/img/iteration-2.png)](http://fvcproductions.github.io/cornell-tech-logos)
+[![showcase](https://i.imgur.com/QBzg9S2.png)](http://fvcproductions.github.io/cornell-tech-logos)
 
 # Cornell Tech Logos
 
